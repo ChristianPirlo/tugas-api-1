@@ -44,3 +44,7 @@ D:\Pirlo(Semester 4)\Desain Resful Web Api (Pak Argo)\try_api\TodoApi\BookStoreA
 D:\Pirlo(Semester 4)\Desain Resful Web Api (Pak Argo)\try_api\TodoApi\BookStoreApi\obj\Debug\net7.0\BookStoreApi.pdb
 D:\Pirlo(Semester 4)\Desain Resful Web Api (Pak Argo)\try_api\TodoApi\BookStoreApi\obj\Debug\net7.0\BookStoreApi.genruntimeconfig.cache
 D:\Pirlo(Semester 4)\Desain Resful Web Api (Pak Argo)\try_api\TodoApi\BookStoreApi\obj\Debug\net7.0\ref\BookStoreApi.dll
+D:\Pirlo(Semester 4)\Desain Resful Web Api (Pak Argo)\try_api\TodoApi\BookStoreApi\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+D:\Pirlo(Semester 4)\Desain Resful Web Api (Pak Argo)\try_api\TodoApi\BookStoreApi\bin\Debug\net7.0\System.Web.Http.dll
+D:\Pirlo(Semester 4)\Desain Resful Web Api (Pak Argo)\try_api\TodoApi\BookStoreApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Pirlo(Semester 4)\Desain Resful Web Api (Pak Argo)\try_api\TodoApi\BookStoreApi\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

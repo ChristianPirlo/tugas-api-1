@@ -31,12 +31,35 @@ public class BooksController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> Post(Book newBook)
+    public async Task<ActionResult<Book>> Post(Book newBook)
+{
+    try
     {
+        if(newBook == null)
+        {
+            return BadRequest();
+        }
+
+        // Add custom model validation error
+        var emp = _booksService.GetAsync(newBook.Id);
+
+        if(emp != null)
+        {
+            ModelState.AddModelError("id", "id buku sudah digunakan ");
+            return BadRequest(ModelState);
+        }
+
         await _booksService.CreateAsync(newBook);
 
-        return CreatedAtAction(nameof(Get), new { id = newBook.Id }, newBook);
+        return CreatedAtAction(nameof(Get), new { id = newBook.Id },
+            newBook);
     }
+    catch (Exception)
+    {
+        return StatusCode(StatusCodes.Status500InternalServerError,
+            "Error retrieving data from the database");
+    }
+}
 
     [HttpPut("{id:length(24)}")]
     public async Task<IActionResult> Update(string id, Book updatedBook)
