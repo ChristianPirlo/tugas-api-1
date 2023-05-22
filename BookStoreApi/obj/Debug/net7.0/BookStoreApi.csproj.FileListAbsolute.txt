@@ -48,3 +48,10 @@ D:\Pirlo(Semester 4)\Desain Resful Web Api (Pak Argo)\try_api\TodoApi\BookStoreA
 D:\Pirlo(Semester 4)\Desain Resful Web Api (Pak Argo)\try_api\TodoApi\BookStoreApi\bin\Debug\net7.0\System.Web.Http.dll
 D:\Pirlo(Semester 4)\Desain Resful Web Api (Pak Argo)\try_api\TodoApi\BookStoreApi\bin\Debug\net7.0\Newtonsoft.Json.dll
 D:\Pirlo(Semester 4)\Desain Resful Web Api (Pak Argo)\try_api\TodoApi\BookStoreApi\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+D:\Pirlo(Semester 4)\Desain Resful Web Api (Pak Argo)\try_api\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Pirlo(Semester 4)\Desain Resful Web Api (Pak Argo)\try_api\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Pirlo(Semester 4)\Desain Resful Web Api (Pak Argo)\try_api\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Pirlo(Semester 4)\Desain Resful Web Api (Pak Argo)\try_api\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Pirlo(Semester 4)\Desain Resful Web Api (Pak Argo)\try_api\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Pirlo(Semester 4)\Desain Resful Web Api (Pak Argo)\try_api\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Pirlo(Semester 4)\Desain Resful Web Api (Pak Argo)\try_api\TodoApi\BookStoreApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
