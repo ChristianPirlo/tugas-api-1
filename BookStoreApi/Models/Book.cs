@@ -19,4 +19,7 @@ public class Book
     //public string Price { get; set; } = null!;
     public string Category { get; set; } = null!;
     public string Author { get; set; } = null!;
+
+    // public string? Title { get; set; }
+    // public bool IsDone { get; set; }
 }

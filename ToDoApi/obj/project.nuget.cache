@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jBv7bs59W2IUnfVloPM3tp3ZIYNpQhEyEvS8tddzNBSqwu4kBzrz6JoQyyxiU+KvlUJz4uda1EXlova5X9aspQ==",
+  "dgSpecHash": "Ii/VZhHu0GnzUb4NnkNjO1EmmYapvPPH6LV0svUaDP/ePMhe3SXKmhsG7x0Md7jsCzLdGbpuoZ1Hl3F1ipJeVA==",
   "success": true,
-  "projectFilePath": "D:\\Pirlo(Semester 4)\\Desain Resful Web Api (Pak Argo)\\try_api\\TodoApi\\TodoApi.csproj",
+  "projectFilePath": "D:\\Pirlo(Semester 4)\\Desain Resful Web Api (Pak Argo)\\try_api\\TodoApi\\ToDoApi\\TodoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Pirlo(Semester 4)\\Desain Resful Web Api (Pak Argo)\\try_api\\TodoApi\\TodoApi.csproj": {}
+    "D:\\Pirlo(Semester 4)\\Desain Resful Web Api (Pak Argo)\\try_api\\TodoApi\\ToDoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "D:\\Pirlo(Semester 4)\\Desain Resful Web Api (Pak Argo)\\try_api\\TodoApi\\TodoApi.csproj": {
+    "D:\\Pirlo(Semester 4)\\Desain Resful Web Api (Pak Argo)\\try_api\\TodoApi\\ToDoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pirlo(Semester 4)\\Desain Resful Web Api (Pak Argo)\\try_api\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "D:\\Pirlo(Semester 4)\\Desain Resful Web Api (Pak Argo)\\try_api\\TodoApi\\ToDoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "D:\\Pirlo(Semester 4)\\Desain Resful Web Api (Pak Argo)\\try_api\\TodoApi\\TodoApi.csproj",
+        "projectPath": "D:\\Pirlo(Semester 4)\\Desain Resful Web Api (Pak Argo)\\try_api\\TodoApi\\ToDoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Pirlo(Semester 4)\\Desain Resful Web Api (Pak Argo)\\try_api\\TodoApi\\obj\\",
+        "outputPath": "D:\\Pirlo(Semester 4)\\Desain Resful Web Api (Pak Argo)\\try_api\\TodoApi\\ToDoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
