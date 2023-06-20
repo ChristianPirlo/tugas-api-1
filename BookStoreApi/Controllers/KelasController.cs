@@ -8,11 +8,11 @@ namespace BookStoreApi.Controllers;
 [ApiController]
 [Route("api/[controller]")]
 [Produces("application/json")]
-public class BooksController : ControllerBase
+public class KelasController : ControllerBase
 {
-    private readonly BooksService _booksService;
+    private readonly KelasService _booksService;
 
-    public BooksController(BooksService booksService) =>
+    public KelasController(KelasService booksService) =>
         _booksService = booksService;
 
     /// <response code="201">Returns the newly created item</response>
@@ -25,7 +25,7 @@ public class BooksController : ControllerBase
     [ProducesResponseType(StatusCodes.Status402PaymentRequired)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
 
-    public async Task<List<Book>> Get() =>
+    public async Task<List<Kelas>> Get() =>
         await _booksService.GetAsync();
 
   
@@ -36,7 +36,7 @@ public class BooksController : ControllerBase
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status402PaymentRequired)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<ActionResult<Book>> Get(string id)
+    public async Task<ActionResult<Kelas>> Get(string id)
     {
         var book = await _booksService.GetAsync(id);
 
@@ -56,7 +56,7 @@ public class BooksController : ControllerBase
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status402PaymentRequired)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<ActionResult<Book>> Post(Book newBook)
+    public async Task<ActionResult<Kelas>> Post(Kelas newBook)
 {
         await _booksService.CreateAsync(newBook);
         return CreatedAtAction(nameof(Get), new { id = newBook.Id }, newBook);
@@ -96,7 +96,7 @@ public class BooksController : ControllerBase
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status402PaymentRequired)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<IActionResult> Update(string id, Book updatedBook)
+    public async Task<IActionResult> Update(string id, Kelas updatedBook)
     {
         var book = await _booksService.GetAsync(id);
 
@@ -114,7 +114,7 @@ public class BooksController : ControllerBase
 
     
     [HttpDelete("{id:length(24)}")]
-    [Authorize]
+    // [Authorize]
     [ProducesResponseType(StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]

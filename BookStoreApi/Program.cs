@@ -23,7 +23,32 @@ builder.Services.AddCors(options =>
     builder.Services.Configure<BookStoreDatabaseSettings>(
     builder.Configuration.GetSection("BookStoreDatabase"));
 
+    builder.Services.Configure<BookStoreDatabaseSettings>(
+    builder.Configuration.GetSection("KelasDatabase"));
+
+    builder.Services.Configure<BookStoreDatabaseSettings>(
+    builder.Configuration.GetSection("MapelDatabase"));
+
+    builder.Services.Configure<BookStoreDatabaseSettings>(
+    builder.Configuration.GetSection("GuruDatabase"));
+
+    builder.Services.Configure<BookStoreDatabaseSettings>(
+    builder.Configuration.GetSection("PresensiHarianGuruDatabase"));
+
+    builder.Services.Configure<BookStoreDatabaseSettings>(
+    builder.Configuration.GetSection("PresensiMengajarDatabase"));
+
     builder.Services.AddSingleton<BooksService>();
+
+    builder.Services.AddSingleton<MapelService>();
+
+    builder.Services.AddSingleton<GuruService>();
+
+    // builder.Services.AddSingleton<PresensiHarianGuruService>();
+
+    // builder.Services.AddSingleton<PresensiMengajarService>();
+
+    builder.Services.AddSingleton<KelasService>();
 
 //builder.Services.AddControllers().AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
 builder.Services.AddControllers();
